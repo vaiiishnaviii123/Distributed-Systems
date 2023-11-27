@@ -1,3 +1,4 @@
+# Created by Vaishnavi Kulkarni during university course - Dustributed systems.
 import pickle
 import socket
 import time
@@ -16,8 +17,6 @@ IP = '127.0.0.1'  # localhost
 BACKLOG = 100  # socket listen arge
 MAX_NUM_CONNECTIONS = 100
 
-
-# -------------------------Given By prof-------------------------------------------
 
 
 def compactsize_t(n):
@@ -187,8 +186,6 @@ def print_header(header, msgInfo, expected_cksum=None):
         return 'WRONG'
     return command
 
-
-# -------------------------Given By prof above-------------------------------------------
 def convertLittleBig(string):
     """
     CHANGE THIS
