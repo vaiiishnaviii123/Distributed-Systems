@@ -1,4 +1,4 @@
-# Created by Vaishnavi Kulkarni during university course - Dustributed systems.
+# Created by Vaishnavi Kulkarni during university course - Distributed systems.
 import pickle
 import socket
 import time
